@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-05T11:54:04.642Z</updated>
+  <updated>2020-11-07T03:03:52.004Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>postName</title>
+    <link href="http://yoursite.com/2020/11/07/postName/"/>
+    <id>http://yoursite.com/2020/11/07/postName/</id>
+    <published>2020-11-07T03:01:58.000Z</published>
+    <updated>2020-11-07T03:03:52.004Z</updated>
+    
+    <content type="html"><![CDATA[<p># 前言 使用github pages服务搭建博客的好处有： 1. 全是静态文件，访问速度快； 2. 免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台； 3. 可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的； <a id="more"></a> 4. 数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行； 5. 博客内容可以轻松打包、转移、发布到其它平台； 6. 等等；</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;# 前言 使用github pages服务搭建博客的好处有： 1. 全是静态文件，访问速度快； 2. 免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台； 3. 可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>my-first-blog</title>
