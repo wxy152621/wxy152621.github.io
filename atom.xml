@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-11-07T03:03:52.004Z</updated>
+  <updated>2020-11-06T12:37:19.257Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2020/11/07/rpn,roipooling/"/>
+    <id>http://yoursite.com/2020/11/07/rpn,roipooling/</id>
+    <published>2020-11-07T04:50:39.281Z</published>
+    <updated>2020-11-06T12:37:19.257Z</updated>
+    
+    <content type="html"><![CDATA[<p>\1. RPN中, 一个位置对应的这k个anchor共享特征. RPN输出之后, 经过筛选存留下来的anchor boxes（这时应该称为proposals）就根据boxes位置去前面的原图特征图上crop, 得到各个proposals的特征图, 经过roi pooling后, 这些特征的尺寸维度就都一样了<br>\2. RPN的目标是得到前景的box位置, 作为proposals输出. 后面使用的时候, 根据这个box位置在前面的输入图特征图上进行crop, 然后做roi pooling. rpn和roi pooling的联系只是这个box位置</p><p>RoI Pooling的作用本质上是为了将不同尺寸的RoI特征转换为相同的特征图输出，保证特征图展开（flatten）后具有相同的大小尺寸，能够与下层的全连接层连接，分别执行线性分类(linear classifier)和边框回归(bounding box regressor)。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;\1. RPN中, 一个位置对应的这k个anchor共享特征. RPN输出之后, 经过筛选存留下来的anchor boxes（这时应该称为proposals）就根据boxes位置去前面的原图特征图上crop, 得到各个proposals的特征图, 经过roi pooling
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>postName</title>
